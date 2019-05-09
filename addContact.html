@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<form id="addform">
+  <label>Name</label>
+  <input type="text" name="contactname" id="contactname" required/>
+  <br>
+  <label>Address</label>
+  <input type="text" name="contactaddress" id="contactaddress" required/>
+  <br>
+  <label>Company</label>
+  <input type="text" name="contacthome" id="contactcompany" required/>
+  <br>
+  <label>Cell Number</label>
+  <input type="text" name="contactcell" id="contactcell" required/>
+  <br>
+  <label>Birthday</label>
+  <input type="date" name="contactbirth" id="contactbirth" required/>
+  <br>
+  <label>E-Mail</label>
+  <input type="email" name="contactmail" id="contactmail" required/>
+  <br>
+  <label>URL</label>
+  <input type="text" name="contacturl" id="contacturl" required/>
+  <br>
+  <label>Photo</label>
+  <input type="file"  name="contactphoto" accept="image" id="contactpic"  />
+  <br>
+  <div id="image" >
+      <img src="default.png" width="50px" height="50px">
+  </div>
+  <button id="addbtn">Add</button>
+  <button id="cancelbtn">Cancel</button>
+</form>
+<script src="./addressbook.js"></script>
+</body>
+</html>

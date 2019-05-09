@@ -1,0 +1,16 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "Address Book",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mir Raonaq",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.5",
+    "jquery": "^3.3.1",
+    "vcf": "^2.0.1"
+  }
+}
